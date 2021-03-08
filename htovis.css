@@ -1,0 +1,67 @@
+body{
+    background-image: url('images/hatter.png');
+    padding: 15px;
+  }
+  
+h1{
+    text-align:center;
+    font-size: 222%;
+    margin: 0px 0px 10px;
+  }
+  
+h1, h2 {
+    color: #eb7100;
+}  
+  
+p{
+    text-align:justify;
+  }
+  
+div.keret p, div.keret img {
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    background-size: 650px;
+}  
+p:first-letter{
+    margin-left: 25px;
+  }
+  
+.f{
+    font-weight:bold;
+  }
+  
+.keret{
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    font-size: 75%;
+    background-color: #f1f1f1;
+    box-shadow: 10px 10px 5px #cfb7a2;
+  }
+  
+li {
+    list-style-image: url(images/bogyo.png);
+    font-style: italic;
+}
+
+#erdekesseg{
+    width:250px;
+    float:right;
+    margin: 0px 0px 20px 15px;
+    background-color: #ffffcc;
+    -ms-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg)
+}
+  
+#bokor{
+    width: 550px;
+    border: 5px solid #eb7100;
+  }
+
+#bevezeto {
+    width: 600px;
+    font-size: large;
+}
